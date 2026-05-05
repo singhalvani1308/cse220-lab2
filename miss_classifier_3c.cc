@@ -104,7 +104,7 @@ extern "C" void miss_classifier_3c_init(uint64_t cache_size_bytes,
     g_cnt_compulsory = g_cnt_capacity = g_cnt_conflict = g_cnt_total = 0;
 
     fprintf(stderr,
-        "[3C] init: size=%lu bytes, assoc=%u, line=%u B â -> %lu sets, %lu lines\n",
+        "[3C] init: size=%lu bytes, assoc=%u, line=%u B -> %lu sets, %lu lines\n",
         (unsigned long)cache_size_bytes, assoc, line_size_bytes,
         (unsigned long)g_num_sets, (unsigned long)g_num_lines);
 }
